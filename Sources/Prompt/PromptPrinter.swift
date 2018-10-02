@@ -7,7 +7,7 @@
 //
 
 
-protocol PromptPrinter {
+public protocol PromptPrinter {
     func printString(_ string: String, terminator: String)
 }
 

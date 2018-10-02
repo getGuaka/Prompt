@@ -7,7 +7,7 @@
 //
 
 
-protocol PromptReader {
+public protocol PromptReader {
     func read() -> String?
 }
 
